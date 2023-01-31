@@ -1,0 +1,2 @@
+col username format a40;
+select distinct inst_id, username, machine from gv$session WHERE status like 'ACTIVE' order by username;
