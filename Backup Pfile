@@ -1,0 +1,6 @@
+-- Create Pfile From SPfile
+crate pfile=/home/oracle/mii/monitoring/pfile-portdb-dev.ora from spfile;
+
+
+-- Create SPfile From Pfile
+create spfile from pfile=/home/oracle/mii/monitoring/pfile-portdb-dev.ora;
