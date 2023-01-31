@@ -1,0 +1,5 @@
+column index_name format a30
+column visibility format a10
+
+select index_name, visibility
+from   user_indexes;
